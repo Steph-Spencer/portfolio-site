@@ -1,0 +1,39 @@
+h1{
+	font-family: 'Monserrat', sans-serif;
+	font-size: 7rem;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 2rem;
+}
+
+p{
+	font-family: 'Open Sans', Arial;
+	font-size: 0.8rem;
+	color: #000;
+}
+
+.thick-line{
+	color: #fff;
+	height: 1vh;
+}
+
+.logo-roll{
+	color: #696969;
+	font-size: 8rem;
+	text-align: center;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
