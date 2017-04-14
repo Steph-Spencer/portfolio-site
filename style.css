@@ -1,32 +1,75 @@
 h1{
-	font-family: 'Monserrat', sans-serif;
-	font-size: 7rem;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 4rem;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: lighter;
+	line-height: 100%;
 }
 
 h2{
+	font-family: 'Open Sans', Arial;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3{
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align: center;
+	color: #fff;
+	font-size: 1.25rem;
+	letter-spacing: 0.7px;
 }
 
 p{
 	font-family: 'Open Sans', Arial;
 	font-size: 0.8rem;
 	color: #000;
+	margin: 0 20%;
+}
+
+.banner{
+	/*background: url("img/geo_bg_purple.jpg") no-repeat cover center;*/
+	background: darkorchid;
+	padding: 15vh 3em 4vh 3em;
+	height: 60vh;
+	position:bottom;
+}
+
+.userpic {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin: 20px auto;
+  border: 4px solid white;
+  border-radius: 100px;
+  background-image: url(img/Steph_Spencer.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .thick-line{
-	color: #fff;
-	height: 1vh;
+	background-color: #fff;
+	height: 4px;
+	width: 50%;
+	margin: 0vh 25%;
+}
+
+#skills{
+	padding: 8vh;
+	background: #F7F6F8;
 }
 
 .logo-roll{
-	color: #696969;
-	font-size: 8rem;
+	color: #000;
+	font-size: 6rem;
 	text-align: center;
 }
 
