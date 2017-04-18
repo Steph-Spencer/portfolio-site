@@ -1,11 +1,10 @@
 h1{
 	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-size: 4rem;
+	font-size: 6rem;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
-	line-height: 100%;
 }
 
 h2{
@@ -13,7 +12,7 @@ h2{
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 2rem;
+	font-size: 4rem;
 	font-weight: bold;
 }
 
@@ -23,23 +22,28 @@ h3{
 	font-weight: lighter;
 	text-align: center;
 	color: #fff;
-	font-size: 1.25rem;
+	font-size: 2.5rem;
 	letter-spacing: 0.7px;
 }
 
 p{
 	font-family: 'Open Sans', Arial;
-	font-size: 1rem;
+	font-size: 2.5rem;
 	line-height: 130%;
 	color: #696969;
-	margin: 5vh 20%;
+	margin: 5vh 3%;
+}
+
+a{
+	color: #fff;
+	text-decoration:none;
 }
 
 .banner{
 	/*background: url("img/geo_bg_purple.jpg") no-repeat cover center;*/
 	background: darkorchid;
 	padding: 15vh 3em 4vh 3em;
-	height: 60vh;
+	min-height: 30vh;
 	position:bottom;
 }
 
@@ -58,20 +62,27 @@ p{
 
 .thick-line{
 	background-color: #fff;
-	height: 4px;
+	height: 10px;
 	width: 50%;
 	margin: 0vh 25%;
 }
 
 .thick-flourish{
 	background-color: darkorchid;
-	height: 4px;
-	width: 4%;
-	margin: 0vh 48%;
+	height: 10px;
+	width: 16%;
+	margin: 0vh 42%;
+}
+
+.thick-flourish-white{
+	background-color: #fff;
+	height: 10px;
+	width: 16%;
+	margin: 0vh 42%;
 }
 
 #about,#skills,#portfolio,#contact{
-	padding: 3vh 8vh;
+	padding: 3vh 2vh;
 }
 
 #skills{
@@ -84,9 +95,88 @@ p{
 	text-align: center;
 }
 
+.portfolio-item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 2vh 0;
+    border-radius: 5px;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.icon{
+	margin-top: 5vh;
+	letter-spacing: 12px;
+}
+
 #contact{
 	background: #696969;
 	color: #fff;
-	font-size: 2.7rem;
+	font-size: 5rem;
 	text-align: center;
+}
+
+/*********************************************
+
+MEDIA QUERIES
+
+**********************************************/
+
+@media only screen and (min-width: 768px) {
+
+	h1{
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+
+	p{
+	 	font-size: 1rem;
+	 	margin: 2vh 20%;
+	}
+
+	.thick-flourish,.thick-flourish-white{
+		width: 4%;
+		margin: 2vh 48%;
+		height: 4px;
+
+	}
+
+	.thick-line{
+		height:4px;
+		width:30%;
+		margin: 0vh 35%;
+	}
+
+	.logo-roll{
+		margin: 0 10%;
+	}
+
+	#contact{
+		font-size: 3.2rem;
+	}
+
+	.portfolio-item{
+		width: 47%;
+	}
+
+	.flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+
 }
