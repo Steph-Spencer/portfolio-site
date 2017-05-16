@@ -51,6 +51,10 @@ a{
 	text-decoration:none;
 }
 
+.center-text{
+	text-align: center;
+}
+
 .banner{
 	background: url(img/geo_bg_purple.jpeg) no-repeat center;
 	background-size: cover;
@@ -122,10 +126,9 @@ a{
 }
 
 .portfolio-item-title {
-	background: rgba(153,50,204,0.6);
-	width: 60%;
+	background: rgba(126,79,185,0.9);
 	padding: 0.5em;
-	line-height: 160%;
+	line-height: 150%;
 }
 
 .sage-cover{
