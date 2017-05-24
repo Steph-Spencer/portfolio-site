@@ -38,10 +38,17 @@ h4{
 	font-weight: lighter;
 }
 
+h5{
+	font-family: 'Open Sans', Arial;
+	font-size: 1.5rem;
+	line-height: 200%;
+	text-align: center;
+}
+
 p{
 	font-family: 'Open Sans', Arial;
 	font-size: 2.5rem;
-	line-height: 140%;
+	/*line-height: 140%;*/
 	color: #696969;
 	margin: 5vh 3%;
 }
@@ -50,6 +57,31 @@ a{
 	color: #fff;
 	text-decoration:none;
 }
+
+.mauve{
+	background: #E1D7F0;
+}
+
+.lavender{
+	background: #C9B2EA;
+}
+
+.lilac{
+	background: #C1A1E0;
+}
+
+.purple{
+	background: #AC8BDC;
+}
+
+.grape{
+	background: #B67FDA;
+}
+
+#strengths{
+	margin:0;
+}
+
 
 .center-text{
 	text-align: center;
@@ -121,9 +153,9 @@ a{
     border-radius: 5px;
 }
 
-.portfolio-item:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+/*.portfolio-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}*/
 
 .portfolio-item-title {
 	background: rgba(126,79,185,0.9);
